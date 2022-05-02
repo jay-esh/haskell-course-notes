@@ -19,3 +19,10 @@ there are many functions already defined in the prelude. You can play around wit
 ...
 ```
 there are many others which we will go through later.
+
+The haskell files have an extention of ".hs" tho it is not mandatory but is useful to identify your haskell scripts.
+
+The code mentioned in these notes can be run on ghci by using 
+```
+stack ghci path/to/ur/hs/file 
+```
