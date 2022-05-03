@@ -26,3 +26,35 @@ fact x = x * fact (x-1)
 Here it is very easy to understand if we give it an argument of 1 then the function will always return 0 and if we give any other argument we compute the factorial recursively, thus the first line is acting as the base case for this recursive function.
 
 ## Guards
+
+Guards are similar to if statements but they are more readable than if statements in haskell.
+```
+max' :: Ord p => p -> p -> p
+max' x y 
+    | x > y = x
+    | otherwise = y
+```
+Note: we can call this function in ghci in 2 ways:
+```
+> max' 1 2
+2
+> 1 `max'` 2
+2
+```
+Notice the difference between the 2. These are useful for functions that take only 2 arguments.
+
+## Where and Let Statements 
+
+Where and let statements are used to reduce the repeated use of a line of code in haskell. I view it as variables in haskell.
+
+The only difference between "where" and "let" statements it that the where statements come at the end of the function while let statements come at the beginning of the function.
+
+Refer to the code (hs file) for examples
+
+## Case Expressions 
+
+These are used to execute different blocks of code for different values of the variable.
+
+Again refer to the code (hs file) for examples
+
+
