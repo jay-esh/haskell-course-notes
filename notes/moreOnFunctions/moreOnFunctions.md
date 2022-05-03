@@ -8,8 +8,7 @@ numberOne :: (Eq a, Num a) => a -> [Char]
 numberOne 1 = "This is it!!!"
 numberOne _ = "Try again!!"
 ```
-Here we use pattern matching on '1' as argument to the above function.
-"_" here means anything of the given type "other than 1".
+Here "_" means anything of the given type "other than 1".
 
 In haskell the code is read by ghci from top to bottom in an order so the line 
 ```
@@ -41,20 +40,20 @@ Note: we can call this function in ghci in 2 ways:
 > 1 `max'` 2
 2
 ```
-Notice the difference between the 2. These are useful for functions that take only 2 arguments.
+Notice the difference between the two. These are useful for functions that take only 2 arguments.
 
 ## Where and Let Statements 
 
-Where and let statements are used to reduce the repeated use of a line of code in haskell. I view it as variables in haskell.
+"Where" and "let" statements are used to reduce the repeated use of a line of code in haskell. I view it as a way of defining variables in haskell.
 
-The only difference between "where" and "let" statements it that the where statements come at the end of the function while let statements come at the beginning of the function.
+The only difference between "where" and "let" statements is that the "where" statements come at the end of the function while "let" statements come at the beginning of the function.
 
-Refer to the code (hs file) for examples
+Refer to the code (hs file) for examples.
 
 ## Case Expressions 
 
-These are used to execute different blocks of code for different values of the variable.
+These are used to execute different blocks of code for different values of the variable/argument.
 
-Again refer to the code (hs file) for examples
+Again refer to the code (hs file) for examples.
 
 

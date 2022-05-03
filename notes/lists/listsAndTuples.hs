@@ -22,8 +22,8 @@ myzip (x:xs) (y:ys) = (x,y) : myzip xs ys
 we cannot create it again so I named it as myzip 
 it takes in 2 lists, the first 2 lines 
 take care of the base case of this recursive function
-and the thirsd line represents the recursive function
-here "_" represents an arbitrary argument(list) that we
+and the third line represents the recursive step
+here "_" represents an arbitrary argument(of list type) that we
 dont care about since if either of the list is an empty 
 list it should return an empty list and for the recursive 
 case we represent lists with (x:xs) and (y:ys) for simplifying 

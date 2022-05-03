@@ -4,7 +4,7 @@ So like any other programming languages lists are represented by square brackets
 ```
 mylist = [1,2,3]
 ```
-Lists in haskell contain elements only of a single type.
+Lists in haskell can contain elements only of a single type.
 ### Functions for Lists
 
 ```
@@ -59,7 +59,7 @@ Thus their types need to be explicitly written in the type decleration.
 aTuple :: (Integer, Char, [Char])
 aTuple = (1,'2',"a string")
 ```
-Note: string is nothing but a string of characters and the character is surrounded by a single quotation ehile the string is surrounded by double quotation.
+Note: string is nothing but a string of characters and the character is surrounded by a single quotation while the string is surrounded by double quotation.
 
 One important function using list and tuple is the "zip" function
 ```

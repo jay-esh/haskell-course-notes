@@ -1,6 +1,6 @@
 ## Syntax 
 
-Functions in the normal mathematics notes are written as "f(x)" and is read as "f of x"
+Functions in the normal mathematics are written as "f(x)" and is read as "f of x"
 
 but in haskell the functions are written without the brackets but with space.
 ```
@@ -14,10 +14,10 @@ let's create a function in haskell
 doubleMe :: Num a => a -> a
 doubleMe x = 2*x
 ```
-the code written in line 1 is called type decleration for the function and the next line is our actual ultimate function called doubleMe
+the code written in line 1 is called type decleration for the function and the next line is our actual function called doubleMe
 
 Things to keep in mind while creating functions:
-1. Type declerations are not necessary but for syntax purposes but will be required for your understand of what the function actually does.
+1. Type declerations are not necessary for syntax purposes but are recommended since it is a good practice.
 2. The function names should always start with a small charater.
 3. Always have proper indentations in the code of your functions.
 4. A single apostrophe is allowed in the function names.
@@ -31,8 +31,8 @@ doublenumless100 x = if x > 100
                         then x
                      else 2*x
 ```
-It is straightforward if you have programmed in any programming language before.
-The only difference in haskell is that the else part is mandatory. 
+It is straight forward if you have programmed in any programming language before.
+The only difference in haskell is that the 'else' part is mandatory. 
 
 
 
